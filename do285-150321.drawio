@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T06:32:34.974Z" agent="5.0 (X11)" etag="9ZiL69avKdnGOONyCg2E" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T18:24:05.997Z" agent="5.0 (X11)" etag="F1NJ9Jb9y7AkX658kWQ7" version="14.4.9" type="github">
   <diagram id="MrE4aEUgw_m7tssvsG44" name="Page-1">
-    <mxGraphModel dx="873" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1175" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="BijR91Kk8bGMdVuJaGAi-44" value="Build" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="1305" y="2075" width="183" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="BijR91Kk8bGMdVuJaGAi-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;fontFamily=Courier New;fontSize=18;" parent="1" edge="1">
+        <mxCell id="BijR91Kk8bGMdVuJaGAi-20" value="" style="endArrow=none;html=1;fontFamily=Courier New;fontSize=18;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="827" y="1411" as="sourcePoint" />
             <mxPoint x="827" y="1180" as="targetPoint" />
@@ -248,7 +248,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uVjTlBAUehCiwXA-oS3U-68" value="kubernetes Pod SDN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="28" y="1269" width="798" height="35" as="geometry" />
+          <mxGeometry x="28" y="1269" width="810" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uVjTlBAUehCiwXA-oS3U-70" value="10.88.0.1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=1.067;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;fontColor=#000000;entryPerimeter=0;" parent="1" source="uVjTlBAUehCiwXA-oS3U-69" target="uVjTlBAUehCiwXA-oS3U-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -293,7 +293,7 @@
           <mxGeometry x="441.5" y="1359" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uVjTlBAUehCiwXA-oS3U-80" value="kubernetes Service SDN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;strokeColor=#6c8ebf;fillColor=#7EA6E0;" parent="1" vertex="1">
-          <mxGeometry x="28" y="1231" width="798" height="35" as="geometry" />
+          <mxGeometry x="28" y="1231" width="810" height="35" as="geometry" />
         </mxCell>
         <mxCell id="BijR91Kk8bGMdVuJaGAi-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.206;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontFamily=Courier New;fontSize=12;" parent="1" source="uVjTlBAUehCiwXA-oS3U-81" target="uVjTlBAUehCiwXA-oS3U-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -340,7 +340,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vq2so253h82gYiynJcNO-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.836;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="uVjTlBAUehCiwXA-oS3U-86" target="uVjTlBAUehCiwXA-oS3U-80" edge="1">
+        <mxCell id="vq2so253h82gYiynJcNO-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.823;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="uVjTlBAUehCiwXA-oS3U-86" target="uVjTlBAUehCiwXA-oS3U-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uVjTlBAUehCiwXA-oS3U-86" value="80" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -541,7 +541,7 @@
         <mxCell id="BijR91Kk8bGMdVuJaGAi-5" value="&lt;div&gt;oc expose svc &amp;lt;SVC_NAME&amp;gt; [--name &amp;lt;ROUTE_NAME&amp;gt;] [--hostname &amp;lt;FQDN&amp;gt;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DNS DEFAULT NAME = &amp;lt;ROUTE_NAME&amp;gt;-&amp;lt;PROJ&amp;gt;.&amp;lt;DOMAIN WILDCARD&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="868" y="2480" width="813" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="BijR91Kk8bGMdVuJaGAi-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=18;fontColor=#990000;" parent="1" source="BijR91Kk8bGMdVuJaGAi-7" edge="1">
+        <mxCell id="BijR91Kk8bGMdVuJaGAi-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=18;fontColor=#990000;dashed=1;dashPattern=1 1;shape=link;" parent="1" source="BijR91Kk8bGMdVuJaGAi-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="1303" as="targetPoint" />
           </mxGeometry>
@@ -589,7 +589,7 @@
         <mxCell id="BijR91Kk8bGMdVuJaGAi-11" value="NodePort" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="205" y="1393" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BijR91Kk8bGMdVuJaGAi-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.974;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;endArrow=none;endFill=0;fontFamily=Courier New;fontSize=12;" parent="1" source="BijR91Kk8bGMdVuJaGAi-21" target="uVjTlBAUehCiwXA-oS3U-68" edge="1">
+        <mxCell id="BijR91Kk8bGMdVuJaGAi-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.958;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontFamily=Courier New;fontSize=12;" parent="1" source="BijR91Kk8bGMdVuJaGAi-21" target="uVjTlBAUehCiwXA-oS3U-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BijR91Kk8bGMdVuJaGAi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Courier New;fontSize=12;fontColor=#000000;curved=1;strokeColor=none;dashed=1;" parent="1" source="BijR91Kk8bGMdVuJaGAi-21" target="uVjTlBAUehCiwXA-oS3U-81" edge="1">
@@ -604,7 +604,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BijR91Kk8bGMdVuJaGAi-21" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;Client Pod&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;fontColor=#000000;align=center;dashed=1;" parent="1" vertex="1">
+        <mxCell id="BijR91Kk8bGMdVuJaGAi-21" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;Client Pod&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="786" y="1355" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="BijR91Kk8bGMdVuJaGAi-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.847;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fontFamily=Courier New;fontSize=15;fontColor=#808080;strokeColor=#808080;" parent="1" source="BijR91Kk8bGMdVuJaGAi-49" target="uVjTlBAUehCiwXA-oS3U-113" edge="1">
@@ -965,13 +965,13 @@
         <mxCell id="3QLf5IpCnJ0NpGCcDTzA-113" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;rounded=0;shadow=1;glass=0;dashed=1;sketch=0;strokeColor=#990000;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="757" y="2745" width="53" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XbHKEhYhSTOhfLSlf-l--1" value="ROUTE" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="XbHKEhYhSTOhfLSlf-l--1" value="ROUTE" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="594" y="2763" width="46" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="XbHKEhYhSTOhfLSlf-l--2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;opacity=30;" vertex="1" parent="1">
+        <mxCell id="XbHKEhYhSTOhfLSlf-l--2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="1219.8700000000001" y="1751" width="28.13" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="XbHKEhYhSTOhfLSlf-l--3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;opacity=30;" vertex="1" parent="1">
+        <mxCell id="XbHKEhYhSTOhfLSlf-l--3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="1454.8700000000001" y="1750" width="28.13" height="27" as="geometry" />
         </mxCell>
         <mxCell id="BijR91Kk8bGMdVuJaGAi-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=18;curved=1;startArrow=classic;startFill=1;" parent="1" source="BijR91Kk8bGMdVuJaGAi-88" target="BijR91Kk8bGMdVuJaGAi-99" edge="1">
@@ -982,10 +982,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XbHKEhYhSTOhfLSlf-l--5" value="&lt;h1&gt;POD Scheduling&lt;br&gt;&lt;/h1&gt;&lt;p&gt;1. Get a list of all NODES&lt;/p&gt;&lt;p&gt;2. Go through all the predicates for &lt;font color=&quot;#0000FF&quot;&gt;FILTERing&lt;/font&gt;. If NODE fails predicate rule, &lt;u&gt;remove from list.&lt;/u&gt;&lt;/p&gt;&lt;p&gt;3. With remainder list of NODES, &lt;font color=&quot;#0000FF&quot;&gt;prioritize&lt;/font&gt; them using the weightage rules. &lt;u&gt;NO filtering of NODES done here&lt;/u&gt;.&lt;/p&gt;&lt;p&gt;4. Select the NODE with highest points.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="XbHKEhYhSTOhfLSlf-l--5" value="&lt;h1&gt;POD Scheduling&lt;br&gt;&lt;/h1&gt;&lt;p&gt;1. Get a list of all NODES&lt;/p&gt;&lt;p&gt;2. Go through all the predicates for &lt;font color=&quot;#0000FF&quot;&gt;FILTERing&lt;/font&gt;. If NODE fails predicate rule, &lt;u&gt;remove from list.&lt;/u&gt;&lt;/p&gt;&lt;p&gt;3. With remainder list of NODES, &lt;font color=&quot;#0000FF&quot;&gt;prioritize&lt;/font&gt; them using the weightage rules. &lt;u&gt;NO filtering of NODES done here&lt;/u&gt;.&lt;/p&gt;&lt;p&gt;4. Select the NODE with highest points.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="894" y="2619" width="778" height="367" as="geometry" />
         </mxCell>
-        <mxCell id="XbHKEhYhSTOhfLSlf-l--7" value="&lt;b&gt;Upgrade Path Graph:&lt;/b&gt; https://access.redhat.com/labs/ocpupgradegraph/update_channel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="XbHKEhYhSTOhfLSlf-l--7" value="&lt;b&gt;Upgrade Path Graph:&lt;/b&gt; https://access.redhat.com/labs/ocpupgradegraph/update_channel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="912" y="3098" width="746" height="20" as="geometry" />
         </mxCell>
       </root>
